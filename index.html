@@ -9,29 +9,30 @@
 </head>
 
 <body>
-    <h1>Aria Website</h1>
-    <h2>What is Aria</h2>
-    <!--I used ARIA here to allow the readers to know that this is a paragraph-->
-    <div aria-label="Paragraph">
-        <p>It is a set of roles and attributes that define ways to make web content and web applications (especially
-            those
-            developed with JavaScript) more accessible to people with disabilities.</p>
-    </div>
-    <div style="padding: 2%;">
-        <span>Username</span>
-        <!--This one is to let the readers know that this section deals with a username and password-->
-        <input type="text" aria-label="Username">
-        <label>Password</label>
-        <input type="text" aria-label="Password"><button aria-label="submitButton">Submit</button>
-    </div>
-    <!--The button label is to tell the readers what the buttons are for-->
-    <div>
-        <button type="button" role="link" aria-label="learn about ARIA States" aria-pressed="mixed">
-            <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes"
-                alt="ARIA states and properties">Learn About ARIA states and properties</a>
-        </button>
-    </div>
-
+    <main>
+        <h1>Aria Website</h1>
+        <h2>What is Aria</h2>
+        <!--I used ARIA here to allow the readers to know that this is a paragraph-->
+        <div aria-label="Paragraph">
+            <p>It is a set of roles and attributes that define ways to make web content and web applications (especially
+                those
+                developed with JavaScript) more accessible to people with disabilities.</p>
+        </div>
+        <div style="padding: 2%;">
+            <span>Username</span>
+            <!--This one is to let the readers know that this section deals with a username and password-->
+            <input type="text" aria-label="Username">
+            <label>Password</label>
+            <input type="text" aria-label="Password"><button aria-label="submitButton">Submit</button>
+        </div>
+        <!--The button label is to tell the readers what the buttons are for-->
+        <div>
+            <button type="button" role="link" aria-label="learn about ARIA States" aria-pressed="mixed">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes"
+                    alt="ARIA states and properties">Learn About ARIA states and properties</a>
+            </button>
+        </div>
+    </main>
 
     <script src="script.js"></script>
 </body>
